@@ -27,7 +27,7 @@ Antes de comenzar, asegúrate de tener instalado:
 ## 🚀 2️⃣ **Inicio rápido (Quick Start)**
 
 ### 1. Clonar el repositorio
-    git clone https://github.com/tuusuario/micro-crud-python.git
+    git clone https://github.com/ProyectoMillonario/micro-crud.git
 
 ### 2. Instalar docker y ejecutar el docker desktop
 ### 3. Ejecutar el siguiente comando para crear la imagen: 
