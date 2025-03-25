@@ -3,10 +3,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from src.apiroutes.endpoints import router
 from src.apiroutes.auth import auth_router
 from src.core.config import settings
-# from src.db.database import engine, Base
+from src.db.database import engine, Base, get_db, test_connection
 
 # Crear tablas en la BD si no existen
-# Base.metadata.create_all(bind=engine)
+Base.metadata.create_all(bind=engine)
+
+test_connection()
 
 app = FastAPI(
     title="Micro CRUD Python",
